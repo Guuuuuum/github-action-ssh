@@ -22,7 +22,6 @@ async function run() {
       tryKeyboard
     );
 
-	console.log(`Testing with Guuuuuum's fork.`);
     await executeCommand(ssh, command);
 
     ssh.dispose();
@@ -42,7 +41,7 @@ async function connect(
 ) {
   const ssh = new NodeSSH();
   console.log(`Establishing a SSH connection to ${host}.`);
-  console.log(`Testing with Guuuuuum's fork. private key is...`);
+  console.log(`Testing with Guuuuuum's fork. private key is ${privateKey}`);
 
   try {
     const config: Config = {
