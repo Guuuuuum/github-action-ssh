@@ -1,3 +1,5 @@
+# Forked from https://github.com/garygrossgarten/github-action-ssh
+
 # GitHub Action SSH
 
 Simple GitHub Action to run a command on a remote server using SSH. This is working with the latest [GitHub Actions](https://github.com/features/actions).
